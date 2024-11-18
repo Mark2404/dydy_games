@@ -33,6 +33,10 @@ button {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Circular Std";
+  src: url(../styles/CircularStd-Medium.ttf) format("truetype");
+}
 * {
   padding: 0;
   margin: 0;
@@ -65,6 +69,74 @@ button {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Circular Std";
+  src: url(../styles/CircularStd-Medium.ttf) format("truetype");
+}
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-title h1 {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  width: 55%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.header-title ._title-buttons-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.header-title ._title-buttons-sec .first {
+  background-color: #393953;
+}
+
+._title-little-information-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 40px;
+}
+._title-little-information-sec ._info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+._title-little-information-sec ._info h5 {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #fff;
+}
+._title-little-information-sec ._info p {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: #c8c7d8;
+}
+
+.arrow-sec {
+  margin-top: 60px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -97,6 +169,10 @@ button {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: "Circular Std";
+  src: url(../styles/CircularStd-Medium.ttf) format("truetype");
+}
 header {
   display: flex;
   align-items: center;
