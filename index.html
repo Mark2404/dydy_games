@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="./styles/main.css">
   <title>home</title>
 </head>
@@ -50,5 +51,103 @@
 
 
   </div>
+  <section class="carusel-sec container">
+    <div class="_carusel-sec-title">
+      <h1>Projects built with grants</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nulla risus, consectetur ut bibendum non,
+        gravida non libero.</p>
+      <a href="#"> View all funded projects --></a>
+
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="_swiper-title">
+            <p>Crowdfund</p>
+            <h4>Funding rates page</h4>
+            <p>Funding amount: $5,000 - $6,000</p>
+          </div>
+          <p>Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates
+            across multiple timeframes. The page will be interactive to include deep diving across different assets and
+            historical analysis of changing rates. It will also include API functionalities to allow developer access.
+          </p>
+          <img class="swiper-avatar" src="./assets/icons/Avatar group-1.svg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="_swiper-title2">
+            <div class="box"></div>
+            <p>Crowdfund</p>
+            <h4>Tradingview integration</h4>
+            <p>Funding amount: $5,000 - $6,000</p>
+          </div>
+          <p>Grant will be used to build a dedicated web app to give traders a view of all
+            dYdX asset funding rates
+            across multiple timeframes. The page will be interactive to include deep diving across different assets and
+            historical analysis of changing rates. It will also include API functionalities to allow developer access.
+          </p>
+          <img style="margin-top: 40px;" class="swiper-avatar2" src="./assets/icons/Avatar group2.svg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="_swiper-title">
+            <p>Crowdfund</p>
+            <h4>Rewards optimization research and paper</h4>
+            <p>Funding amount: $5,000 - $6,000</p>
+          </div>
+          <p>Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates
+            across multiple timeframes. The page will be interactive to include deep diving across different assets and
+            historical analysis of changing rates.
+          </p>
+          <img class="swiper-avatar" src="./assets/icons/Avatar group-3.svg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="_swiper-title">
+            <p>Crowdfund</p>
+            <h4>Funding rates page</h4>
+            <p>Funding amount: $5,000 - $6,000</p>
+          </div>
+          <p>Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates
+            across multiple timeframes. The page will be interactive to include deep diving across different assets and
+            historical analysis of changing rates. It will also include API functionalities to allow developer access.
+          </p>
+          <img class="swiper-avatar" src="./assets/icons/Avatar group-1.svg" alt="">
+        </div>
+      </div>
+      <!-- Навигация -->
+
+    </div>
+  </section>
+
 
 </body>
+
+
+
+
+<!-- java kodla -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    spaceBetween: 30,
+    slidesPerView: 3,
+    centeredSlides: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+
+      640: {
+        slidesPerView: 1,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });
+
+</script>
