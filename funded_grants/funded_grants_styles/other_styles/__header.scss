@@ -1,0 +1,42 @@
+@import "../other_styles/_variabels";
+@import "../../../styles/fonts";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  div {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      li {
+        list-style-type: none;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          font-family: $space-mono;
+
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #c8c7d8;
+          transition: all 0.2s ease;
+          &:hover {
+            color: #e6e5ec;
+          }
+          &:active {
+            color: #e6e5ec;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bnm {
+  margin-bottom: 60px;
+}

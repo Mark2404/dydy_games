@@ -1,8 +1,210 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+@import "../../styles/fonts";
+@import "./other_styles/_variabels";
+@import "./other_styles/_header";
+
+.section-1 {
+  margin-bottom: 120px;
+  .s1__links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    .s1_btn {
+      font-family: $circular;
+      font-weight: 700;
+      border-radius: 6px;
+      color: #c8c7d8;
+      background-color: transparent;
+      transition: all 0.3s ease;
+      &:hover {
+        color: white;
+        background-color: #393953;
+      }
+    }
+  }
+  .check-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 80px;
+    p {
+      font-family: $circular;
+      color: #c8c7d8;
+      font-weight: 700;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 45px;
+      height: 22px;
+    }
+
+    /* Hide default HTML checkbox */
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    /* The slider */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 0px;
+      bottom: -2px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+
+    input:checked + .slider {
+      background-color: #6966ff;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196f3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+  }
+}
+
+.s1__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .s1__cards-item {
+    width: 32%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #393953;
+    margin-bottom: 25px;
+    div {
+      padding: 25px;
+
+      .Category {
+        font-family: $space-mono;
+        color: #a59eba;
+        margin-bottom: 12px;
+      }
+      .s1__cards-item-title {
+        font-family: $circular;
+        font-size: 24px;
+        color: white;
+        margin-bottom: 10px;
+      }
+      .primary_text {
+        font-family: $circular;
+        font-size: 16px;
+        color: white;
+        line-height: 30px;
+        font-weight: 500;
+      }
+    }
+    img {
+      width: 40px;
+      margin: 25px;
+    }
+    .Avatar1 {
+      width: 90px;
+    }
+    .Avatar2 {
+      width: 100px;
+    }
+    .Avatar3 {
+      width: 100px;
+    }
+    transition: all 0.3s ease;
+    &:hover {
+      box-shadow: 0px 4px 15px #9c8fc5;
+    }
+  }
+}
+
+.w-img {
+  div {
+    padding: 0 !important;
+    margin: 0;
+    .Image_Block {
+      width: 100%;
+      margin: 0;
+    }
+    .w-img-title {
+      padding: 25px !important;
+      padding-bottom: 0 !important;
+    }
+  }
+}
+
+.section-2 {
+  margin-bottom: 150px;
+}
+
+.s2__content {
+  width: 100%;
+  padding: 40px 0px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    322deg,
+    #6966ff 60%,
+    rgba(105, 102, 255, 0.36) 100%
+  );
+  border-radius: 20px;
+  .primary_text {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: $circular;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: $circular;
+    margin-bottom: 40px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    color: #6966ff;
+    margin: 0 auto;
+  }
 }
 
 
