@@ -167,4 +167,44 @@
   }
 }
 
+.section-2 {
+  margin-bottom: 150px;
+}
+
+.s2__content {
+  width: 100%;
+  padding: 40px 0px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    322deg,
+    #6966ff 60%,
+    rgba(105, 102, 255, 0.36) 100%
+  );
+  border-radius: 20px;
+  .primary_text {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: $circular;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: $circular;
+    margin-bottom: 40px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    color: #6966ff;
+    margin: 0 auto;
+  }
+}
+
 
