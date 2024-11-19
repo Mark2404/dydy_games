@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../program-images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+
+}
+
+.section-1  {
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 40px;
+
+
+
+
+
+
+
+
+    .main-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+
+
+        h1 {
+            font-weight: 700;
+            font-size: 60px;
+            color: white;
+        }
+    }
+
+    .main-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:40px;
+
+        .vv {
+            text-decoration: none;
+            color:  rgba(200, 199, 216, 1);
+            padding: 15px   20px;
+            font-size: 14px;
+            transition: all 0.4s ease;
+        
+            
+            
+    }
+
+    .vv:hover {
+        color:white;
+        padding: 15px   20px;
+        background: rgba(57, 57, 83, 1);
+        border-radius: 8px;
+        cursor: pointer;
+      
+    }
+
+    .active {
+        text-decoration: none;
+        color:white;
+        padding: 15px   20px;
+        background: rgba(57, 57, 83, 1);
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+}
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 5%;
+
+
+    .year {
+        display: flex;
+       
+        justify-content: space-between;
+        padding: 24px;
+        width: 130%;
+        height: 23vh;
+        background: rgba(57, 57, 83, 1);
+        border-radius: 10px;
+
+
+
+        .year-text {
+            display: flex;
+            flex-direction: column;
+            gap:15px ;
+        }
+
+        .year-text h2 {
+            font-weight: 700;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 1);
+
+               }
+
+
+               .vendor {
+                color: rgba(200, 199, 216, 1);
+                font-weight: 400;
+                font-size: 16px;       
+                    }
+                 
+
+           .description {
+            color: rgba(255, 255, 255, 1);
+            font-weight: 450;
+            font-size: 16px;
+            margin-top: 15px;
+           }   
+           
+           .year-img {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            gap: 20px;
+    }
+
+    .price {
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 16px;
+    }
+    }
+    
+
+
+
+
+
+
+}

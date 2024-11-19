@@ -1,0 +1,44 @@
+@import "../variables";
+@import "../fonts";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    .background-img {
+        position: absolute;
+        top: 0;
+        left: 50px;
+        z-index: -1;
+
+
+
+    }
+
+
+    div {
+        ul {
+            display: flex;
+            gap: 30px;
+
+            li {
+                list-style-type: none;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    font-family: $space-mono;
+
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #c8c7d8;
+                }
+            }
+
+
+        }
+    }
+}

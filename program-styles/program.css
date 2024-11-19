@@ -51,4 +51,125 @@ header .header-content .header-button {
   background: rgb(105, 102, 255);
   color: white;
   font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../program-images/bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.section-1 .main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.section-1 .main-text h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+}
+.section-1 .main-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.section-1 .main-link .vv {
+  text-decoration: none;
+  color: rgb(200, 199, 216);
+  padding: 15px 20px;
+  font-size: 14px;
+  transition: all 0.4s ease;
+}
+.section-1 .main-link .vv:hover {
+  color: white;
+  padding: 15px 20px;
+  background: rgb(57, 57, 83);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.section-1 .main-link .active {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  background: rgb(57, 57, 83);
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 5%;
+}
+.section-2 .year {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  width: 130%;
+  height: 23vh;
+  background: rgb(57, 57, 83);
+  border-radius: 10px;
+}
+.section-2 .year .year-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section-2 .year .year-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.section-2 .year .vendor {
+  color: rgb(200, 199, 216);
+  font-weight: 400;
+  font-size: 16px;
+}
+.section-2 .year .description {
+  color: rgb(255, 255, 255);
+  font-weight: 450;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.section-2 .year .year-img {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+.section-2 .year .price {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 16px;
 }/*# sourceMappingURL=program.css.map */

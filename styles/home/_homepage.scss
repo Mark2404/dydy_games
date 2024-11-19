@@ -1,0 +1,73 @@
+@import "../variables";
+@import "../fonts";
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-family: $circular;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+        text-align: center;
+        width: 55%;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    ._title-buttons-sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .first {
+            background-color: #393953;
+        }
+
+    }
+}
+
+._title-little-information-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+
+    ._info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        flex-direction: column;
+
+        h5 {
+            font-family: $space-mono;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            text-align: center;
+            color: #fff;
+        }
+
+        p {
+            font-family: $space-mono;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 133%;
+            text-align: center;
+            color: #c8c7d8;
+        }
+    }
+}
+
+.arrow-sec {
+    margin-top: 60px;
+}
