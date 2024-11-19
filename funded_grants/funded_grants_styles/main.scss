@@ -207,4 +207,42 @@
   }
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  .footer__nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    a {
+      font-family: $space-mono;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #c8c7d8;
+      transition: all 0.2s ease;
+      &:hover {
+        color: #e6e5ec;
+      }
+      &:active {
+        color: #e6e5ec;
+      }
+    }
+    .share {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .footer__social {
+    display: flex;
+    align-items: center;
+    gap: 30px ;
+  }
+}
 
+@media max(max-width: 550px) {
+  
+}
