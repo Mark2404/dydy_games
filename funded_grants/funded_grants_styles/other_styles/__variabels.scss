@@ -1,5 +1,4 @@
 @import "../../../styles/fonts";
-@import "./_fonts";
 
 * {
   padding: 0;
@@ -34,11 +33,12 @@ button {
 }
 
 h1 {
-  font-family: "Circural";
+  font-family: $circular;
   font-weight: 700;
   font-size: 60px;
   line-height: 120%;
   letter-spacing: -0.02em;
   text-align: center;
   color: white;
+  margin-bottom: 40px;
 }
