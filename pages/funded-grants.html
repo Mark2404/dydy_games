@@ -12,7 +12,34 @@
   <body>
     <header class="container bnm">
       <img src="../assets/icons/Logo.svg" alt="" />
-      <div>
+      <div class="burger-menu">
+        <div class="menu-mobile">
+          <div class="menu-mobile__header">
+            <img
+              width="120"
+              src="../funded_grants/funded_grants_images/Logo-nav.svg"
+              alt=""
+            />
+            <div style="display: flex; align-items: center; gap: 40px">
+              <button class="apply">Apply</button>
+              <img
+                class="close"
+                src="../funded_grants/funded_grants_images/close.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <nav class="nav_mobile">
+            <a href="#">Discover initiatives</a>
+            <a href="./funded-grants.html">Funded grants</a>
+            <a href="./program.html">Program expenses</a>
+            <a href="#">Blog</a>
+            <a href="#">FAQ</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="nav">
         <ul>
           <li><a href="#">Discover initiatives</a></li>
           <li><a href="./funded-grants.html">Funded grants</a></li>
@@ -21,6 +48,12 @@
           <li><a href="#">FAQ</a></li>
           <button>Apply for grant</button>
         </ul>
+        <button class="apply">Apply</button>
+        <img
+          class="menu"
+          src="../funded_grants/funded_grants_images/menu-burger.svg"
+          alt=""
+        />
       </div>
     </header>
     <main>
@@ -30,9 +63,9 @@
           <button class="s1_btn">All</button>
           <button class="s1_btn">Technical / Tool Development</button>
           <button class="s1_btn">Governance</button>
-          <button class="s1_btn">Growth / Marketing</button>
-          <button class="s1_btn">Analytics</button>
-          <button class="s1_btn">Third Party Provider</button>
+          <button class="s1_btn cvb">Growth / Marketing</button>
+          <button class="s1_btn cvb">Analytics</button>
+          <button class="s1_btn cvb">Third Party Provider</button>
         </div>
         <div class="check-btn">
           <label class="switch">
@@ -219,7 +252,10 @@
         </div>
       </section>
       <section class="section-2 container">
-        <div class="s2__content">
+        <div
+          style="box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1)"
+          class="s2__content"
+        >
           <p class="primary_text">Have a project in mind?</p>
           <h2>Let’s create something awesome.</h2>
           <button>
@@ -264,5 +300,6 @@
         </footer>
       </section>
     </main>
+    <script src="../funded_grants/scripts/app.js"></script>
   </body>
 </html>

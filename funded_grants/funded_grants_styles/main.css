@@ -360,4 +360,117 @@ footer .footer__social {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+.apply {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-mobile {
+  display: none;
+  z-index: 9999;
+}
+
+.menu-mobile__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #393953;
+}
+
+.menu-mobile__header .close {
+  cursor: pointer;
+}
+
+.menu-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  transform: translateY(calc(-100vh - 50px));
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-mobile.active {
+  transform: translateY(0);
+}
+
+.menu-mobile nav {
+  height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #393953;
+}
+
+.menu-mobile nav a {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #c8c7d8;
+  transition: all 0.2s ease;
+}
+.menu-mobile nav a:hover {
+  color: #e6e5ec;
+}
+.menu-mobile nav a:active {
+  color: #e6e5ec;
+}
+
+@media (max-width: 550px) {
+  .container {
+    max-width: 500px;
+  }
+  header div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  header div ul {
+    display: none;
+  }
+  header div .apply {
+    display: block;
+    padding: 14px 18px;
+  }
+  header div .menu {
+    width: 25px;
+    display: block;
+    cursor: pointer;
+  }
+  .section-1 .s1__links .cvb {
+    display: none;
+  }
+  .section-1 .s1__cards {
+    flex-direction: column;
+  }
+  .section-1 .s1__cards .s1__cards-item {
+    width: 100%;
+  }
+  .section-3 footer {
+    flex-direction: column;
+    align-items: start;
+  }
+  .section-3 footer .footer__nav {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+  .burger-menu .menu-mobile {
+    display: block;
+  }
+  .header .blog {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
