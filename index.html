@@ -1,153 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>home</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./styles/main.css">
-  <title>home</title>
-</head>
-
-<body>
-  <header class="container">
-    <img class="background-img" src="./assets/imgs/Grid-backgraound.svg" alt="">
-    <img src="./assets/icons/Logo.svg" alt="">
-    <div>
-      <ul class="header-links">
-        <li><a href="#">Discover initiatives</a></li>
-        <li><a href="#">Funded grants</a></li>
-        <li><a href="#">Program expenses</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">FAQ</a></li>
+  <body>
+    <header class="container">
+      <img
+        class="background-img"
+        src="./assets/imgs/Grid-backgraound.svg"
+        alt=""
+      />
+      <img src="./assets/icons/Logo.svg" alt="" />
+      <div>
+        <ul class="header-links">
+          <li><a href="#">Discover initiatives</a></li>
+          <li><a href="./pages/funded-grants.html">Funded grants</a></li>
+          <li><a href="./pages/program.html">Program expenses</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+          <button>Apply for grant</button>
+        </ul>
+      </div>
+    </header>
+    <div class="header-title container">
+      <h1>Powering the future of dYdX through community grants</h1>
+      <div class="_title-buttons-sec">
+        <button class="first">Discover RFPs</button>
         <button>Apply for grant</button>
-      </ul>
-    </div>
-  </header>
-  <div class="header-title container">
-    <h1>Powering the future of dYdX through community grants</h1>
-    <div class="_title-buttons-sec">
-      <button class="first">Discover RFPs</button>
-      <button>Apply for grant</button>
-    </div>
-    <div class="_title-little-information-sec">
-      <div class="_info">
-        <h5>100+ </h5>
-        <p>projects funded</p>
       </div>
-      <div class="_info">
-        <h5>100+ </h5>
-        <p>projects funded</p>
-      </div>
-      <div class="_info">
-        <h5>100+ </h5>
-        <p>projects funded</p>
-      </div>
-    </div>
-    <div class="arrow-sec">
-      <img src="./assets/icons/Down arrow.svg" alt="">
-
-    </div>
-
-
-  </div>
-  <section class="carusel-sec container">
-    <div class="_carusel-sec-title">
-      <h1>Projects built with grants</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nulla risus, consectetur ut bibendum non,
-        gravida non libero.</p>
-      <a href="#"> View all funded projects --></a>
-
-    </div>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="_swiper-title">
-            <p>Crowdfund</p>
-            <h4>Funding rates page</h4>
-            <p>Funding amount: $5,000 - $6,000</p>
-          </div>
-          <p>Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates
-            across multiple timeframes. The page will be interactive to include deep diving across different assets and
-            historical analysis of changing rates. It will also include API functionalities to allow developer access.
-          </p>
-          <img class="swiper-avatar" src="./assets/icons/Avatar group-1.svg" alt="">
+      <div class="_title-little-information-sec">
+        <div class="_info">
+          <h5>100+</h5>
+          <p>projects funded</p>
         </div>
-        <div class="swiper-slide">
-          <div class="_swiper-title2">
-            <div class="box"></div>
-            <p>Crowdfund</p>
-            <h4>Tradingview integration</h4>
-            <p>Funding amount: $5,000 - $6,000</p>
-          </div>
-          <p>Grant will be used to build a dedicated web app to give traders a view of all
-            dYdX asset funding rates
-            across multiple timeframes. The page will be interactive to include deep diving across different assets and
-            historical analysis of changing rates. It will also include API functionalities to allow developer access.
-          </p>
-          <img style="margin-top: 40px;" class="swiper-avatar2" src="./assets/icons/Avatar group2.svg" alt="">
+        <div class="_info">
+          <h5>100+</h5>
+          <p>projects funded</p>
         </div>
-        <div class="swiper-slide">
-          <div class="_swiper-title">
-            <p>Crowdfund</p>
-            <h4>Rewards optimization research and paper</h4>
-            <p>Funding amount: $5,000 - $6,000</p>
-          </div>
-          <p>Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates
-            across multiple timeframes. The page will be interactive to include deep diving across different assets and
-            historical analysis of changing rates.
-          </p>
-          <img class="swiper-avatar" src="./assets/icons/Avatar group-3.svg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <div class="_swiper-title">
-            <p>Crowdfund</p>
-            <h4>Funding rates page</h4>
-            <p>Funding amount: $5,000 - $6,000</p>
-          </div>
-          <p>Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates
-            across multiple timeframes. The page will be interactive to include deep diving across different assets and
-            historical analysis of changing rates. It will also include API functionalities to allow developer access.
-          </p>
-          <img class="swiper-avatar" src="./assets/icons/Avatar group-1.svg" alt="">
+        <div class="_info">
+          <h5>100+</h5>
+          <p>projects funded</p>
         </div>
       </div>
-      <!-- Навигация -->
-
+      <div class="arrow-sec">
+        <img src="./assets/icons/Down arrow.svg" alt="" />
+      </div>
     </div>
-  </section>
+    <section class="carusel-sec container">
+      <div class="_carusel-sec-title">
+        <h1>Projects built with grants</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nulla
+          risus, consectetur ut bibendum non, gravida non libero.
+        </p>
+        <a href="#"> View all funded projects --></a>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="_swiper-title">
+              <p>Crowdfund</p>
+              <h4>Funding rates page</h4>
+              <p>Funding amount: $5,000 - $6,000</p>
+            </div>
+            <p>
+              Grant will be used to build a dedicated web app to give traders a
+              view of all dYdX asset funding rates across multiple timeframes.
+              The page will be interactive to include deep diving across
+              different assets and historical analysis of changing rates. It
+              will also include API functionalities to allow developer access.
+            </p>
+            <img
+              class="swiper-avatar"
+              src="./assets/icons/Avatar group-1.svg"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <div class="_swiper-title2">
+              <div class="box"></div>
+              <p>Crowdfund</p>
+              <h4>Tradingview integration</h4>
+              <p>Funding amount: $5,000 - $6,000</p>
+            </div>
+            <p>
+              Grant will be used to build a dedicated web app to give traders a
+              view of all dYdX asset funding rates across multiple timeframes.
+              The page will be interactive to include deep diving across
+              different assets and historical analysis of changing rates. It
+              will also include API functionalities to allow developer access.
+            </p>
+            <img
+              style="margin-top: 40px"
+              class="swiper-avatar2"
+              src="./assets/icons/Avatar group2.svg"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <div class="_swiper-title">
+              <p>Crowdfund</p>
+              <h4>Rewards optimization research and paper</h4>
+              <p>Funding amount: $5,000 - $6,000</p>
+            </div>
+            <p>
+              Grant will be used to build a dedicated web app to give traders a
+              view of all dYdX asset funding rates across multiple timeframes.
+              The page will be interactive to include deep diving across
+              different assets and historical analysis of changing rates.
+            </p>
+            <img
+              class="swiper-avatar"
+              src="./assets/icons/Avatar group-3.svg"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <div class="_swiper-title">
+              <p>Crowdfund</p>
+              <h4>Funding rates page</h4>
+              <p>Funding amount: $5,000 - $6,000</p>
+            </div>
+            <p>
+              Grant will be used to build a dedicated web app to give traders a
+              view of all dYdX asset funding rates across multiple timeframes.
+              The page will be interactive to include deep diving across
+              different assets and historical analysis of changing rates. It
+              will also include API functionalities to allow developer access.
+            </p>
+            <img
+              class="swiper-avatar"
+              src="./assets/icons/Avatar group-1.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- Навигация -->
+      </div>
+    </section>
+  </body>
 
-
-</body>
-
-
-
-
-<!-- java kodla -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-<script>
-  const swiper = new Swiper('.swiper-container', {
-    loop: true,
-    spaceBetween: 30,
-    slidesPerView: 3,
-    centeredSlides: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-      delay: 2000,
-      disableOnInteraction: false,
-    },
-    breakpoints: {
-
-      640: {
-        slidesPerView: 1,
+  <!-- java kodla -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper-container", {
+      loop: true,
+      spaceBetween: 30,
+      slidesPerView: 3,
+      centeredSlides: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
-      1024: {
-        slidesPerView: 3,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
       },
-    },
-  });
-
-</script>
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    });
+  </script>
+</html>
